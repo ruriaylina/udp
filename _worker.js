@@ -1,8 +1,8 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-let serviceName = "";
-let APP_DOMAIN = "";
+let serviceName = "udp";
+let APP_DOMAIN = "piscararuri.workers.dev";
 
 let prxIP = "";
 let cachedPrxList = [];
